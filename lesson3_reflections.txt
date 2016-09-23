@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+Keeping a remote repository is helpful in case your computer crashes. You don't want to lose all your files.
+Having them somewhere else is a hlepful backup. A remote repository is also helpful if you are collaborating on projects. Since
+not all contributors are able to be in the same place at the same time, it is helpful to have a place to keep all the times online.
+This also allows other users to have versions of their own programs without interferring with your own.
