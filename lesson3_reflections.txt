@@ -3,3 +3,10 @@ Keeping a remote repository is helpful in case your computer crashes. You don't 
 Having them somewhere else is a hlepful backup. A remote repository is also helpful if you are collaborating on projects. Since
 not all contributors are able to be in the same place at the same time, it is helpful to have a place to keep all the times online.
 This also allows other users to have versions of their own programs without interferring with your own.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Depends on what your local branch is you might not want to overwrite it. Or the projects you're working on may not need the updated master brach from the remote repository. That is, if the maintainers of the source code made some changes that you haven't implemented yet you may get errors.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are specific to GitHub. It is a clone of a repository that you make into your own account so that you do not need the original authors permission for making and commiting changes. Clones are copies of repositories from GitHub to a local machine or from one repo to another repo within the same machine. I don't know why you would make a clone on the same machine. Seems better to make a branch. You do need to clone from GitHub to your local machine if you want to make changes offline. Branches are changes that you make to the files in your repository without commiting these changes to the master branch. This allows you to work on different features or tackle larger tasks that may potentially mess up your program.
